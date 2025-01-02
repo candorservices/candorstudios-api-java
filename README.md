@@ -1,7 +1,23 @@
 # Candor Studios API - Java
 Java Library for Candor Studios' Freelancer API. Please see https://candorstudios.notion.site/Freelancer-API-Docs-14c9e5d3cd0f809b9aa7cc4f251c8d3e?pvs=74 for more documentation on the API and how it works.
 ## Getting Started
-First, initialize the `CandorApi` class using your API key found at https://candorstudios.net/app/freelancers/api-dashboard.
+You can include the library in your project using Jitpack:
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+Dependency:
+
+<dependency>
+    <groupId>com.github.candorservices</groupId>
+    <artifactId>candor-java</artifactId>
+    <version>1.0</version>
+</dependency>
+```
+Then, initialize the `CandorApi` class using your API key found at https://candorstudios.net/app/freelancers/api-dashboard.
 ```java
 CandorApi api = new CandorApi("API_KEY_HERE");
 ```
