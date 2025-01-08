@@ -13,7 +13,7 @@ Dependency:
 
 <dependency>
     <groupId>com.github.candorservices</groupId>
-    <artifactId>candor-java</artifactId>
+    <artifactId>candorstudios-api-java</artifactId>
     <version>1.0</version>
 </dependency>
 ```
