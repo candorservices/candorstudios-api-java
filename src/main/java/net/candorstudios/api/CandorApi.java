@@ -96,7 +96,7 @@ public class CandorApi {
                     response.complete(false);
                     return;
                 }
-                response.complete(true);
+                response.complete(valid);
             } catch (Response.CandorResponseError e) {
                 response.completeError(e.getError());
             } catch (InvalidKeySpecException | NoSuchAlgorithmException | InvalidKeyException | SignatureException e) {
